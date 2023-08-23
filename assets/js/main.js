@@ -14,3 +14,5 @@ if(age < 18){
 }
 //stampo in console il risultato
 console.log("il prezzo del tuo biglietto e' " + Math.round(prezzo * 100) / 100 + '€');
+//stampo sul documento il risultato
+document.getElementById('price').innerHTML = ("il prezzo del tuo biglietto e' " + Math.round(prezzo * 100) / 100 + '€');
