@@ -13,4 +13,4 @@ if(age < 18){
     prezzo = (prezzo / 100 * 40);
 }
 //stampo in console il risultato
-console.log(Math.round(prezzo * 100) / 100 + '€');
+console.log("il prezzo del tuo biglietto e' " + Math.round(prezzo * 100) / 100 + '€');
